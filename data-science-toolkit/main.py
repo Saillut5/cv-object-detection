@@ -1,0 +1,1 @@
+# Dummy Python file for data-science-toolkit\n\ndef analyze_data(data):\n    # Placeholder for data analysis logic\n    print(f"Analyzing data: {data}")\n    return len(data)\n\nif __name__ == "__main__":\n    sample_data = [1, 2, 3, 4, 5]\n    result = analyze_data(sample_data)\n    print(f"Result: {result}")
