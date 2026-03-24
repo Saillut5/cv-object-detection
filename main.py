@@ -1,0 +1,1 @@
+# Dummy Python file for cv-object-detection\n\ndef detect_objects(image_path):\n    # Placeholder for object detection logic\n    print(f"Detecting objects in {image_path}")\n    return ["object1", "object2"]\n\nif __name__ == "__main__":\n    test_image = "path/to/your/image.jpg"\n    detected = detect_objects(test_image)\n    print(f"Detected: {detected}")
